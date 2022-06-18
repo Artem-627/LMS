@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/main_style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <header>
+        <div style="display: flex">
+            <div class="logo">LOGO</div>
+            <div style="width: 30px"></div>
+        </div>
+        <div style="height: 100%;" id="header-dropdown">
+            <div style="display: flex; height: 100%;">
+                <div><img src="images/student.jpg" style="width: 28px; border-radius: 5px;" /></div>
+                <div style="width: 5px"></div>
+                <div id="header-dropdown-button">Имя Фамилия <img src="images/down-arrow.svg" /></div>
+            </div>
+            <div id="header-dropdown-body">
+                <div class="header-dropdown-item">Профиль</div>
+                <div class="hr"></div>
+                <div class="header-dropdown-item">Достижения</div>
+                <div class="hr"></div>
+                <div class="header-dropdown-item">Выйти</div>
+                <div class="hr"></div>
+                <div class="header-dropdown-item">Достижения</div>
+                <div class="hr"></div>
+                <div class="header-dropdown-item">Выйти</div>
+            </div>
+        </div>
+        <div style="display: flex">
+            <button class="statistic-for-parents">Родителям</button>
+        </div>
+    </header>
+
+    <script src="script/main_script.js"></script>
 </body>
 </html>
