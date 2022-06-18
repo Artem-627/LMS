@@ -3,10 +3,14 @@
 body{
     background-color: #f9f7f2;
     margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+a{
+    text-decoration: none;
 }
 
 header{
-    font-family: 'Comfortaa', cursive;
     background-color: #fcca6f;
     color: #44000a;
     display: flex;
@@ -23,10 +27,11 @@ header{
     text-shadow: 0px 0px 4px #44000a80;
 }
 
-.statistic-for-parents{
+.button-type-1{
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
     background-color: #fd5d5b;
+    color: #44000A !important;
     padding: 10px 15px;
     border-radius: 10px;
     border: 0;
@@ -35,12 +40,11 @@ header{
     box-shadow: 6px 6px 11px -1px rgba(221, 34, 85, 0.27);
     transition-property: all;
     transition: .2s
-
 }
-.statistic-for-parents:hover{
+.button-type-1:hover{
     background-color: #ca4a4850;
 }
-.statistic-for-parents:active{
+.button-type-1:active{
     -webkit-box-shadow: 2px 2px 6px -1px rgba(221, 34, 85, 0.27);
     -moz-box-shadow: 2px 2px 6px -1px rgba(221, 34, 85, 0.27);
     box-shadow: 2px 2px 6px -1px rgba(221, 34, 85, 0.27);
@@ -68,10 +72,10 @@ header{
     text-align: center;
     padding: 10px 0;
     border-radius: 10px;
-    /* top: -300px; */
     transition-property: all;
     transition: .2s;
     display: none;
+    margin-left: 30px;
 }
 .header-dropdown-item{
     padding: 7px 60px;
@@ -83,10 +87,73 @@ header{
     background-color: #efbf68;
 }
 
+.header-middle-item{
+    display: flex;   
+}
+
+.header-coins-score{
+    display: flex;
+}
+
+.header-coins-score-text{
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.body{
+    padding: 50px 200px;
+}
+
 .hr{
     margin: 0 auto;
     background-color: #dd2255;
     height: 1.5px;
     margin-right: 10%;
     width: 80%;
+}
+
+.h1{
+    font-size: 40px;
+}
+
+.courses{
+    flex-wrap: wrap;
+    display: flex;
+    color: #f9f7f2 !important;
+    font-size: 30px;
+}
+
+.course{
+    margin: 20px;
+    padding: 0;
+    width: calc(33% - 40px);
+    height: 200px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 6px 5px 0px rgb(252, 202, 111);
+    -moz-box-shadow: 6px 6px 5px 0px rgb(252, 202, 111);
+    box-shadow: 6px 6px 5px 0px rgb(252, 202, 111);
+    transition-property: all;
+    transition: .2s;
+    line-height: 190px;
+}
+
+.course:hover{
+    font-size: 33px;
+    transform: scale(1.03);
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(252, 202, 111);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(252, 202, 111);
+    box-shadow: 10px 10px 5px 0px rgb(252, 202, 111);
+}
+
+.course:active{
+    font-size: 27px;
+    transform: scale(.97);
+    -webkit-box-shadow: 3px 3px 5px 0px rgb(252, 202, 111);
+    -moz-box-shadow: 3px 3px 5px 0px rgb(252, 202, 111);
+    box-shadow: 3px 3px 5px 0px rgb(252, 202, 111);
+}
+
+.course-h{
+    color: #f9f7f2 !important;
+    text-align: center;
 }
