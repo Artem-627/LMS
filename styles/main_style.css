@@ -157,3 +157,7 @@ header{
     color: #f9f7f2 !important;
     text-align: center;
 }
+
+#game{
+    border-radius: 20px;
+}
