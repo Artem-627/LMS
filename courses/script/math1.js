@@ -98,7 +98,6 @@ window.addEventListener('load', () => {
     exit_button.on('click', (e) => {
         content.style.display = "block";
         game.destroy(true);
-        // game = null;
     });
 
     function onDragStart(event) {
