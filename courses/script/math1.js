@@ -54,11 +54,18 @@ window.addEventListener('load', () => {
         game = new PIXI.Application({
             width: window.innerWidth,
             height: window.innerHeight,
-            backgroundColor: 0x24aadd,
+            backgroundColor: 0xBBBBBB,
         });
     
         content.style.display = "none";
         document.body.appendChild(game.view);
+        
+        BG = new PIXI.Sprite(BG_texture);
+        BG.position.x = 0;
+        BG.position.y = 0;
+        BG.height = window.innerHeight;
+        BG.width = window.innerWidth;
+        game.stage.addChild(BG);
     
         
     

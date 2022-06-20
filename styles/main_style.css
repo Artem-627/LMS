@@ -7,12 +7,13 @@ body{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
+    color: #44000a !important;
 }
 
 header{
     background-color: #fcca6f;
-    color: #44000a;
+    color: #44000a !important;
     display: flex;
     padding: 10px 5px;
     justify-content: space-between;
