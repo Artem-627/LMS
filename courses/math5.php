@@ -23,7 +23,7 @@
 
         <div class="body">
             <div style="display: flex; justify-content: space-between;">
-                <div class="h1">Математика 1</div><br />
+                <div class="h1">Математика 1.5</div><br />
                 <a href="../index.php"><button class="button-type-1">На главную</button></a>
             </div><br />
             <div style="width: 100%; height: 500px; background-color: #24aadd;" id="game"></div>
